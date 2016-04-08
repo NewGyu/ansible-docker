@@ -1,0 +1,6 @@
+---
+- name: hogehoge
+  setup:
+  register: facts
+
+- debug: msg=" {{ facts.ansible_facts.ansible_distribution }} "

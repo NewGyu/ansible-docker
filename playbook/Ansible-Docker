@@ -1,0 +1,6 @@
+FROM ansible/ansible:centos7
+RUN pip install ansible
+WORKDIR /playbook
+RUN echo "eval \`ssh-agent\`" >> /root/.bashrc && \
+    echo "ssh-add" >> /root/.bashrc
+CMD ansible

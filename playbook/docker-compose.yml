@@ -1,0 +1,7 @@
+ansible:
+  build: .
+  dockerfile: Ansible-Docker
+  volumes:
+    - "../playbook:/playbook"
+    - "~/.ssh/docker-sample.pem:/root/.ssh/id_rsa"
+  command: bash

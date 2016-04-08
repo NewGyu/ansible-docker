@@ -1,0 +1,2 @@
+[hoge]
+52.193.84.157 ansible_ssh_user=ec2-user
