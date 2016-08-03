@@ -11,6 +11,8 @@ http://docs.ansible.com/ansible/intro_windows.html#reminder-you-must-have-a-linu
 WindowsマシンでもAnsibleが使いたい人はどうすれば？
 Vagrantで仮想Linuxマシンを作ってそこにAnsibleを入れるのも手ですが、Dockerがあるじゃないですか、というサンプルです。
 
+と思って書いたのに、**Windows版Docker ToolBox付属のdocker-composeではrunが使えなくて涙目**。
+
 ## 使い方
 
 ```
